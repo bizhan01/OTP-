@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<br><br>
+<div class="container">
+    <h2>Email Verification with OTP</h2>
+    <p>You can register yourself using your email address, and the app will send an OTP to your email address. You should log in to your email account to activate your account using that OTP.</p>
+    <a href="{% url 'register' %}">Register Now</a>
+</div>
+    
+{% endblock content %}
+    
+
